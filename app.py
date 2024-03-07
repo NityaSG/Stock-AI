@@ -99,7 +99,7 @@ def fetch_news(query):
 # Streamlit UI
 st.title('Stock Data Visualization and Trading Decision Helper')
 a_text=""
-stock_symbol = st.text_input('Enter Stock Symbol (e.g., TCS.BSE):', '')
+stock_symbol = st.text_input('Enter Stock Symbol (e.g., TCS, INFY):', '')
 
 # Trading decision fields
 trading_decision = st.radio("Would you like to buy or sell?", ('Buy', 'Sell'))
