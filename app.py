@@ -21,7 +21,7 @@ def encode_image_to_base64(image_path):
 # Initialize Alpha Vantage TimeSeries
 ts = TimeSeries(key=ALPHA_VANTAGE_API_KEY, output_format='pandas')
 def generate(encoded_image):
-    return "TCS stock price was trending upwards in the last 10 days. The stock price started rising from 1.24 on 2024-02-17 and reached a peak of 1.4 on 2024-02-29. The stock price then started declining and reached a low of 1.25 on 2024-03-05. Based on the recent trend, it is not advisable to buy this stock as the stock price is declining."
+    return " stock price was trending upwards in the last 10 days. The stock price started rising from 1.24 on 2024-02-17 and reached a peak of 1.4 on 2024-02-29. The stock price then started declining and reached a low of 1.25 on 2024-03-05. Based on the recent trend, it is not advisable to buy this stock as the stock price is declining."
 def fetch_stock_data(symbol):
     """Fetches the intra-day stock prices of the given symbol."""
     try:
