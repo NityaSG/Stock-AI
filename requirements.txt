@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+alpha-vantage
+requests
+python-dotenv
+openai
+vertexai
